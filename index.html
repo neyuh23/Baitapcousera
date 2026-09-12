@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Hoàn Chỉnh - Đồ Án CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Link Skip to Content (Bắt buộc cho Accessibility) -->
+    <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
+
+    <!-- 2. Header & Navigation -->
+    <header>
+        <h1>Khám Phá Di Sản & Du Lịch</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#destinations">Điểm đến</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3. Nội dung chính (Thẻ main chứa id="main-content") -->
+    <main id="main-content">
+        <section id="about" class="intro-section">
+            <h2>Giới Thiệu</h2>
+            <p>Chào mừng bạn đến với trang web trải nghiệm văn hóa và cảnh đẹp. Trang web này được tối ưu hóa về giao diện, tính dễ truy cập và cấu trúc chuẩn.</p>
+        </section>
+
+        <!-- Sử dụng CSS Grid cho phần Bố cục/Bộ sưu tập -->
+        <section id="destinations" class="grid-container">
+            <article class="card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Hình ảnh Phố cổ Hà Nội">
+                <h3>Phố Cổ Hà Nội</h3>
+                <p>Khám phá 36 phố phường với nét đẹp cổ kính và văn hóa ẩm thực phong phú.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://picsum.photos/300/200?random=2" alt="Hình ảnh Làng gốm Bát Tràng">
+                <h3>Làng Gốm Bát Tràng</h3>
+                <p>Trải nghiệm làm gốm thủ công truyền thống và tìm hiểu lịch sử lâu đời.</p>
+            </article>
+
+            <article class="card">
+                <img src="https://picsum.photos/300/200?random=3" alt="Hình ảnh Đền Ngọc Sơn">
+                <h3>Đền Ngọc Sơn</h3>
+                <p>Biểu tượng tâm linh và văn hóa nằm giữa lòng Hồ Hoàn Kiếm.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- 4. Footer -->
+    <footer>
+        <p>&copy; 2026 Bài tập hoàn thành khóa học CSS. Bảo lưu mọi quyền.</p>
+    </footer>
+
+</body>
+</html>
